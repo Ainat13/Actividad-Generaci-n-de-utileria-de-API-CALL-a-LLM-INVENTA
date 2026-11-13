@@ -2,7 +2,7 @@
 
 ## 1. Descripción 📝
 INVENTA es una aplicación de escritorio desarrollada en C# mediante Windows Forms, que permite administrar y consultar información de productos, personal e inventario.
-El sistema integra una base de datos MySQL alojada en Amazon RDS y la API de Gemini para incorporar capacidades de inteligencia artificial mediante llamadas a un modelo de lenguaje (LLM).
+El sistema integra una base de datos MySQL alojada en Amazon RDS y la API de Groq para incorporar capacidades de inteligencia artificial mediante llamadas a un modelo de lenguaje (LLM).
 Se realizó como parte de una actividad de la materia de Ciber infraestructura, en la que se buscaba generar una API de "llamada", se decidió utilizar una base de datos anteriormente creada de igual forma para la materia. 
 
 ## 2. Objetivo 🎯
@@ -32,7 +32,7 @@ La comunicación entre la aplicación y el modelo de lenguaje sigue el siguiente
 2. La aplicación consulta la información correspondiente en la base de datos MySQL alojada en AWS.
 3. Los resultados obtenidos se organizan en un contexto.
 4. La pregunta del usuario y el contexto se envían a Groq mediante una llamada a la API.
-5. Gemini procesa la solicitud y genera una respuesta.
+5. Groq procesa la solicitud y genera una respuesta.
 6. La aplicación recibe la respuesta y la muestra en la ventana del chat.
 
 ## Evidencias 🗂️
