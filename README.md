@@ -15,7 +15,7 @@ Desarrollar una utilería que permita realizar solicitudes a un modelo de lengua
 * Visual Studio
 * Amazon Web Services (AWS RDS)
 * MySQL
-* Gemini API
+* Groq API
 
 ## 4. Funcionalidades 🖥️
 * Consulta de productos registrados.
@@ -23,7 +23,7 @@ Desarrollar una utilería que permita realizar solicitudes a un modelo de lengua
 * Visualización de registros de inventario.
 * Consulta de existencias por producto.
 * Conteo de productos y empleados.
-* Interacción con Gemini mediante preguntas en lenguaje natural.
+* Interacción con Groq mediante preguntas en lenguaje natural.
 * Generación de respuestas utilizando información recuperada de la base de datos.
 
 ## 5. Funcionamiento de la API CALL a un LLM🕹️
@@ -31,7 +31,7 @@ La comunicación entre la aplicación y el modelo de lenguaje sigue el siguiente
 1. El usuario escribe una pregunta desde la interfaz de INVENTAI.
 2. La aplicación consulta la información correspondiente en la base de datos MySQL alojada en AWS.
 3. Los resultados obtenidos se organizan en un contexto.
-4. La pregunta del usuario y el contexto se envían a Gemini mediante una llamada a la API.
+4. La pregunta del usuario y el contexto se envían a Groq mediante una llamada a la API.
 5. Gemini procesa la solicitud y genera una respuesta.
 6. La aplicación recibe la respuesta y la muestra en la ventana del chat.
 
